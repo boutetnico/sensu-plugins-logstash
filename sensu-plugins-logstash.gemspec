@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
                               to logstash.'
   s.email                  = '<sensu-users@googlegroups.com>'
   s.executables            = Dir.glob('bin/**/*.rb').map { |file| File.basename(file) }
-  s.files                  = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
+  s.files                  = Dir.glob('{bin,lib}/**/*') + %w[LICENSE README.md CHANGELOG.md]
   s.homepage               = 'https://github.com/boutetnico/sensu-plugins-logstash'
   s.license                = 'MIT'
   s.metadata               = { 'maintainer'         => '@mattyjones',
@@ -42,8 +42,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry',                       '~> 0.13'
   s.add_development_dependency 'rake',                      '~> 13.0'
   s.add_development_dependency 'redcarpet',                 '~> 3.5'
-  s.add_development_dependency 'rubocop',                   '~> 0.85.0'
   s.add_development_dependency 'rspec',                     '~> 3.9'
-  s.add_development_dependency 'yard',                      '~> 0.9.25'
+  s.add_development_dependency 'rubocop',                   '~> 0.85.0'
   s.add_development_dependency 'webmock',                   '~> 3.8.3'
+  s.add_development_dependency 'yard',                      '~> 0.9.25'
 end
