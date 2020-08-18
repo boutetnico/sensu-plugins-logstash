@@ -1,10 +1,11 @@
 ## Sensu-Plugins-logstash
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-logstash.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-logstash)
-[![Gem Version](https://badge.fury.io/rb/sensu-plugins-logstash.svg)](http://badge.fury.io/rb/sensu-plugins-logstash)
-[![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-logstash/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-logstash)
-[![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-logstash/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-logstash)
-[![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-logstash.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-logstash)
+[![Gem Version](https://badge.fury.io/rb/sensu-plugins-logstash-boutetnico.svg)](https://badge.fury.io/rb/sensu-plugins-logstash-boutetnico.svg)
+[![Sensu Bonsai Asset](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/boutetnico/sensu-plugins-logstash)
+
+## This is an unofficial fork
+
+This fork is automatically tested, built and published to [RubyGems](https://rubygems.org/gems/sensu-plugins-logstash-boutetnico/) and [Bonsai](https://bonsai.sensu.io/assets/boutetnico/sensu-plugins-logstash).
 
 ## Functionality
 
