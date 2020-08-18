@@ -31,9 +31,9 @@ Gem::Specification.new do |s|
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsLogstash::Version::VER_STRING
 
-  s.add_runtime_dependency 'json',         '< 2.0.0'
-  s.add_runtime_dependency 'redis',        '3.2.1'
-  s.add_runtime_dependency 'rest-client',  '2.1.0'
+  s.add_runtime_dependency 'json',         '~> 2.3.1'
+  s.add_runtime_dependency 'redis',        '~> 3.2.1'
+  s.add_runtime_dependency 'rest-client',  '~> 2.1.0'
   s.add_runtime_dependency 'sensu-plugin', '~> 4.0'
 
   s.add_development_dependency 'bundler',                   '~> 2.1'

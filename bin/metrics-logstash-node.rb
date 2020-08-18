@@ -86,7 +86,7 @@ class LogstashNodeMetrics < Sensu::Plugin::Metric::CLI::Graphite
                end
 
     r = RestClient::Resource.new("#{protocol}://#{config[:host]}:#{config[:port]}#{resource}", timeout: config[:timeout], headers: headers)
-    JSON.parse(r.get)
+    ::JSON.parse(r.get)
   rescue Errno::ECONNREFUSED
     warning 'Connection refused'
   rescue RestClient::RequestTimeout
@@ -114,7 +114,7 @@ class LogstashNodeMetrics < Sensu::Plugin::Metric::CLI::Graphite
     metrics['process.max_file_descriptors'] = node['process']['max_file_descriptors']
 
     # logstash < 6.0
-    if node.key?('pipeline') && node['pipeline'].key?('workers')
+    if node.key?('pipeline') && node['pipeline'].key?('events')
       node['pipeline']['events'].each do |key, value|
         metrics["pipeline.events.#{key}"] = value
       end
